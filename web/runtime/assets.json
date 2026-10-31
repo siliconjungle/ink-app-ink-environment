@@ -1,0 +1,84 @@
+{
+  "pins": {
+    "runtime": "7c0b795fefe1d3c7599492a8913edc601e0991ae",
+    "abi": "b794d162b3e3770640d96516f9b640c11448cfbe",
+    "gpu": "8f255e25bb334bd9f99c246a1b54d1bd33d6cbca",
+    "planner": "3f6b90c6da8238a7018dcec6752ad929a4b1123a"
+  },
+  "assets": {
+    "ink-gpu.mjs": {
+      "sha256": "d097e015c7fd5a6a7147bb496e0980c956e402e7b25123c70fc94280b28d5496",
+      "package": "runtime",
+      "pin": "7c0b795fefe1d3c7599492a8913edc601e0991ae",
+      "path": "hosts/ink-compute.mjs"
+    },
+    "pipeline-contract.mjs": {
+      "sha256": "40c347af629cf19ceb35a197343bfa0057daa54fe618e47ac784e0e2b59b63a5",
+      "package": "runtime",
+      "pin": "7c0b795fefe1d3c7599492a8913edc601e0991ae",
+      "path": "hosts/pipeline-contract.mjs"
+    },
+    "backend-selection.mjs": {
+      "sha256": "eeae50d292a9cb9351b32081f1150920eec7f096ae9014756f810786ed82b66c",
+      "package": "runtime",
+      "pin": "7c0b795fefe1d3c7599492a8913edc601e0991ae",
+      "path": "hosts/backend-selection.mjs"
+    },
+    "prepared-wasm.mjs": {
+      "sha256": "cfd128e081b2fab9c35012878255af7f79a7720427c7b94363b0112d67289f06",
+      "package": "runtime",
+      "pin": "7c0b795fefe1d3c7599492a8913edc601e0991ae",
+      "path": "hosts/prepared-wasm.mjs"
+    },
+    "pipeline-workers.mjs": {
+      "sha256": "ce2acfcfb75d6c8c6c5ae4e03727ffa3a1a6160782f691ae9dd6449655119430",
+      "package": "runtime",
+      "pin": "7c0b795fefe1d3c7599492a8913edc601e0991ae",
+      "path": "hosts/pipeline-workers.mjs"
+    },
+    "pipeline-worker.mjs": {
+      "sha256": "eb7609cd6751c276f7edb1c9b56aec08b6d15ee955917362b174db9516d77336",
+      "package": "runtime",
+      "pin": "7c0b795fefe1d3c7599492a8913edc601e0991ae",
+      "path": "hosts/pipeline-worker.mjs"
+    },
+    "pipeline-profile.mjs": {
+      "sha256": "6e302b624979c317a47d2413d84b9ebfc4ea9ffffe756d45cf82a51f2d101cfe",
+      "package": "runtime",
+      "pin": "7c0b795fefe1d3c7599492a8913edc601e0991ae",
+      "path": "hosts/pipeline-profile.mjs"
+    },
+    "ink-device.mjs": {
+      "sha256": "19d4c7b44b133dab88418074e048179e46ea2e60ed12c4bc5a660952910324fe",
+      "package": "gpu",
+      "pin": "8f255e25bb334bd9f99c246a1b54d1bd33d6cbca",
+      "path": "devices/compute.mjs"
+    },
+    "ink-abi.mjs": {
+      "sha256": "5db0cad4e43edbabf68dba11d4ce9bae44603a426dc6b33ff1e1701ea94373bc",
+      "package": "abi",
+      "pin": "b794d162b3e3770640d96516f9b640c11448cfbe",
+      "path": "src/packed.mjs"
+    },
+    "ink-selection.mjs": {
+      "sha256": "bbd63dfd959c06658dde1f5da743af125e5394171202e865a07de7826166afd5",
+      "package": "abi",
+      "pin": "b794d162b3e3770640d96516f9b640c11448cfbe",
+      "path": "src/selection.mjs"
+    },
+    "ink-selection.wasm": {
+      "sha256": "d510a9a8d308bc0cff5a5f776db754a75a88c6c4886aa173067f64823e271ecb",
+      "package": "abi",
+      "pin": "b794d162b3e3770640d96516f9b640c11448cfbe",
+      "path": "selection.wasm"
+    },
+    "pipeline-selection.mjs": {
+      "sha256": "7011d6da8f4bdd27d78011be19f2f1bb38bb748611553b2ec2206bd7fd1b74e0",
+      "package": "planner",
+      "pin": "3f6b90c6da8238a7018dcec6752ad929a4b1123a",
+      "path": "browser/pipeline-selection.mjs"
+    }
+  },
+  "runtimeHostHash": "201fda189294c6e2e7bfc2f7bff2e52870030b6becf97e96ee6e9a8f88f5910a",
+  "plannerHash": "7011d6da8f4bdd27d78011be19f2f1bb38bb748611553b2ec2206bd7fd1b74e0"
+}

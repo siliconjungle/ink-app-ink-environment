@@ -1,0 +1,18 @@
+{
+  "keep": {
+    "commands.mjs": "Public source, tests, required assets or licenses.",
+    "vendor-lock.json": "Public source, tests, required assets or licenses.",
+    "sdk-clipboard-source.json": "Public source, tests, required assets or licenses.",
+    "LICENSE": "Public source, tests, required assets or licenses.",
+    "web": "Public source, tests, required assets or licenses.",
+    "tests": "Public source, tests, required assets or licenses.",
+    "ink-app.json": "Public source, tests, required assets or licenses.",
+    "README.md": "Public source, tests, required assets or licenses.",
+    ".gitignore": "Public source, tests, required assets or licenses.",
+    "package.json": "Public source, tests, required assets or licenses.",
+    "dev.mjs": "Public source, tests, required assets or licenses.",
+    "scripts": "Reproducible compiler diagnostic-path sanitization.",
+    ".gitleaks.toml": "Secret scanner configuration with narrowly scoped source-checksum exceptions."
+  },
+  "safe_to_remove": {}
+}

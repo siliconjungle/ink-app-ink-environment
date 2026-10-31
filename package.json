@@ -1,0 +1,10 @@
+{
+  "name": "@ink-os/app-ink-environment",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node dev.mjs"
+  },
+  "license": "MIT"
+}

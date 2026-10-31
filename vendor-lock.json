@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "commit": "b615afa220c6378b0ecacd25a43b47d8a68bc108"
+  },
+  "sdk": {
+    "commit": "ed5d867f93719a00e7b435f5e0638aed46acd070"
+  },
+  "files": {
+    "web/compiler-info.json": "f9a995a085e630ccaf4d933b61097a760089de664e9761e1ccef6bb9322b7fb0",
+    "web/desktop-keys.mjs": "aacb9ade0a6eb7ecb9382b25d6bf60850967ac91f077418d4f556b4d39858360",
+    "web/environment/assets/compiler-worker-o7jMrHsf.js": "35d25528505bd70302494de168b8c0c58c69046aa1b31234b21b17aa5e2e3085",
+    "web/environment/assets/run-worker-DsDMPs6t.js": "c3beb24a3e79f17d80d716df9c6357ef72821c01c8033af948a35b1a1a30908a",
+    "web/environment/index.js": "ab057943145534df736f205f6949e30c0717d93d9fb08872c64cd0c942cd7c1f",
+    "web/environment/style.css": "063fb88de06a3e399e92398bfe3e56f39d6f8c4bc3e002e85ffa92c81b860d12",
+    "web/environment-info.json": "42b15d1a77fb8c6961cdbf221bbcac1de04b2e8aaa80442be1d02cbeff94402e",
+    "web/environment-sw.js": "5c241886c558139676a45375eb11e5b80d1766944e876b6c13cf71c113dfe2d2",
+    "web/ink-compiler.wasm": "f27e35f511cb79557a64f861f9a53bc47b714784a25cabebcfe41a76e68dd078",
+    "web/ink-license.txt": "f77b1365e0bd4db5cc601ae26c95bca7fa26cc71e007f22eaaa6255fce18a160",
+    "web/live-query.mjs": "bff9ae3322c41de933ae6e466b3189909aaf4e455a82b4056f03e5c9ab16c88a",
+    "web/runtime/assets.json": "94c784aa3ff04a0d7fc1fd7ce19f487903258f134484be20d53a48c4393445c7",
+    "web/runtime/backend-selection.mjs": "eeae50d292a9cb9351b32081f1150920eec7f096ae9014756f810786ed82b66c",
+    "web/runtime/ink-abi.mjs": "5db0cad4e43edbabf68dba11d4ce9bae44603a426dc6b33ff1e1701ea94373bc",
+    "web/runtime/ink-device.mjs": "19d4c7b44b133dab88418074e048179e46ea2e60ed12c4bc5a660952910324fe",
+    "web/runtime/ink-gpu.mjs": "d097e015c7fd5a6a7147bb496e0980c956e402e7b25123c70fc94280b28d5496",
+    "web/runtime/ink-selection.mjs": "bbd63dfd959c06658dde1f5da743af125e5394171202e865a07de7826166afd5",
+    "web/runtime/ink-selection.wasm": "8a60843f8c100f67a460c2027bf5a5801e61e3c8fd840e08c60a90e389b6b3c7",
+    "web/runtime/pipeline-contract.mjs": "40c347af629cf19ceb35a197343bfa0057daa54fe618e47ac784e0e2b59b63a5",
+    "web/runtime/pipeline-profile.mjs": "6e302b624979c317a47d2413d84b9ebfc4ea9ffffe756d45cf82a51f2d101cfe",
+    "web/runtime/pipeline-selection.mjs": "7011d6da8f4bdd27d78011be19f2f1bb38bb748611553b2ec2206bd7fd1b74e0",
+    "web/runtime/pipeline-worker.mjs": "eb7609cd6751c276f7edb1c9b56aec08b6d15ee955917362b174db9516d77336",
+    "web/runtime/pipeline-workers.mjs": "ce2acfcfb75d6c8c6c5ae4e03727ffa3a1a6160782f691ae9dd6449655119430",
+    "web/runtime/prepared-wasm.mjs": "cfd128e081b2fab9c35012878255af7f79a7720427c7b94363b0112d67289f06",
+    "web/sdk.js": "55277d116721967a679d97f04983bf8e623d70ca6784912ec90a45e9d70f28c8",
+    "web/text-diff.mjs": "47e4939a085a07466ef962da672e8ee73541eab249810973c6854053da50dd87"
+  }
+}

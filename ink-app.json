@@ -1,0 +1,97 @@
+{
+  "slug": "ink-environment",
+  "title": "Ink Environment",
+  "repository": "https://github.com/siliconjungle/ink-app-ink-environment",
+  "directory": "web",
+  "entry": "index.html",
+  "desktop": {
+    "entry": "ink-environment",
+    "icon": {
+      "svg": "web/icon.svg"
+    },
+    "fileTypes": [
+      ".ink",
+      "text/x-ink",
+      "application/x-ink",
+      "code"
+    ],
+    "dropTypes": [
+      ".ink",
+      "text/x-ink",
+      "application/x-ink",
+      "code"
+    ],
+    "dock": false,
+    "window": {
+      "width": 1120,
+      "height": 740
+    }
+  },
+  "capabilities": [
+    "world.read",
+    "world.write",
+    "desktop.open"
+  ],
+  "commands": [
+    {
+      "id": "new",
+      "title": "New Ink file",
+      "description": "Start a new Ink program.",
+      "inputs": [],
+      "handler": {
+        "type": "open"
+      }
+    },
+    {
+      "id": "open-file",
+      "title": "Open an Ink file…",
+      "description": "Choose an Ink source file.",
+      "inputs": [],
+      "handler": {
+        "type": "open"
+      }
+    },
+    {
+      "id": "files",
+      "title": "Show Ink files",
+      "description": "Browse or search show ink files.",
+      "inputs": [
+        {
+          "name": "q",
+          "label": "Search",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "offset",
+          "label": "Offset",
+          "type": "number",
+          "required": false,
+          "default": 0
+        },
+        {
+          "name": "limit",
+          "label": "Results per page",
+          "type": "number",
+          "required": false,
+          "default": 30
+        }
+      ],
+      "handler": {
+        "type": "query",
+        "query": {
+          "kind": "file",
+          "fileTypes": [
+            "*"
+          ]
+        }
+      },
+      "result": {
+        "items": "objects",
+        "title": "title",
+        "subtitle": "kind"
+      }
+    }
+  ],
+  "commandsClient": "commands.mjs"
+}
