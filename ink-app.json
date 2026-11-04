@@ -25,6 +25,14 @@
     "window": {
       "width": 1120,
       "height": 740
+    },
+    "preview": {
+      "fileTypes": [
+        ".ink",
+        "text/x-ink",
+        "application/x-ink",
+        "code"
+      ]
     }
   },
   "capabilities": [
