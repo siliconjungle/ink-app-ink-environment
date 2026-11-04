@@ -7,7 +7,7 @@
   },
   "files": {
     "web/compiler-info.json": "f9a995a085e630ccaf4d933b61097a760089de664e9761e1ccef6bb9322b7fb0",
-    "web/desktop-keys.mjs": "aacb9ade0a6eb7ecb9382b25d6bf60850967ac91f077418d4f556b4d39858360",
+    "web/desktop-keys.mjs": "415926ac37fd9f3e193061d1f310d34113141941cf6f0bfd3ff6ce51152c79c0",
     "web/environment/assets/compiler-worker-o7jMrHsf.js": "35d25528505bd70302494de168b8c0c58c69046aa1b31234b21b17aa5e2e3085",
     "web/environment/assets/run-worker-DsDMPs6t.js": "c3beb24a3e79f17d80d716df9c6357ef72821c01c8033af948a35b1a1a30908a",
     "web/environment/index.js": "ab057943145534df736f205f6949e30c0717d93d9fb08872c64cd0c942cd7c1f",
@@ -32,5 +32,12 @@
     "web/runtime/prepared-wasm.mjs": "cfd128e081b2fab9c35012878255af7f79a7720427c7b94363b0112d67289f06",
     "web/sdk.js": "55277d116721967a679d97f04983bf8e623d70ca6784912ec90a45e9d70f28c8",
     "web/text-diff.mjs": "47e4939a085a07466ef962da672e8ee73541eab249810973c6854053da50dd87"
+  },
+  "quickLookUpdate": {
+    "repository": "https://github.com/siliconjungle/ink-os-platform",
+    "commit": "8b325465416b972c1d968d8b74102732a25578d8",
+    "files": [
+      "web/desktop-keys.mjs"
+    ]
   }
 }

@@ -27,3 +27,7 @@ JavaScript runs in a worker. WebGPU requires a compatible device; native Rust/Wa
 ## License
 
 MIT for app code. Bundled third-party components retain their own licenses and notices.
+
+## Quick preview
+
+Displays supported files without starting the normal editing workflow. Ink OS can select this reader through `desktop.preview.fileTypes`, independently of Open with. Space opens the temporary preview from a selection; Escape or Space dismisses it, and arrow keys browse the supplied item order.
